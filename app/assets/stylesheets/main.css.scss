@@ -1,3 +1,6 @@
+// depend_on_asset icons/*
+@import 'icons/*.png';
+
 @import 'compass';
 @import 'compass/reset';
 
@@ -5,4 +8,8 @@
 
 body {
   font-family: ff('Segoe');
+}
+
+.Task {
+  @include icons_sprite(star);
 }
