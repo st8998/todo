@@ -3,7 +3,7 @@ source :rubygems
 gem 'rails', '3.2.3'
 
 gem 'pg'
-
+gem 'activerecord-postgres-array'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -18,5 +18,4 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'mustache'
 

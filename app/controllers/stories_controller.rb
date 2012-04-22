@@ -1,7 +1,9 @@
 class StoriesController < ApplicationController
 
+  respond_to :html
+
   def index
-    @name = 'IVAN EFREMOV'
+    respond_with @greetings_person = 'IVAN EFREMOV'
   end
 
 end
