@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  host: database
+  host: localhost
   database: todo_development
   pool: 5
   username: postgres
@@ -10,7 +10,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  host: database
+  host: localhost
   database: todo_test
   pool: 5
   username: postgres
@@ -19,7 +19,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  host: database
+  host: localhost
   database: todo_production
   pool: 5
   username: postgres
