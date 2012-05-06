@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/cloudcastle/toolbox.git
+  revision: c4eb91d1a542781dd63fdf971b6776be7c4293cd
+  specs:
+    monkey_patcher (1.0.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -31,6 +37,7 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     arel (3.0.2)
+    bcrypt-ruby (3.0.1)
     bcrypt-ruby (3.0.1-x86-mingw32)
     builder (3.0.0)
     chunky_png (1.2.5)
@@ -135,6 +142,7 @@ DEPENDENCIES
   devise
   font-stacks
   jquery-rails
+  monkey_patcher!
   pg
   rails (= 3.2.3)
   sass-rails (~> 3.2.3)

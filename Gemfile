@@ -17,6 +17,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+git "git://github.com/cloudcastle/toolbox.git" do
+  gem 'monkey_patcher'
+end
+
 gem 'devise'
 
 gem 'jquery-rails'
